@@ -16,6 +16,12 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
 
+Notes on roles to include during planning:
+- QA / Test Lead: included in planning to define test strategy and acceptance criteria; helps size testing work and identify automation needs
+- Technical Lead / Architect: participates in feasibility and integration discussions, identifies technical dependencies and risks
+- Security / Compliance Officer: flags regulatory or security requirements during initiation and planning
+- DevOps / Platform Engineer: advises on deployment constraints, infrastructure needs, and observability requirements
+
 ## Backlog Item Template
 - Title:
 - Description:

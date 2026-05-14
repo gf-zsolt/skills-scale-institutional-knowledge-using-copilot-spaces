@@ -23,6 +23,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
 
+Notes on roles and responsibilities:
+- QA / Test Lead: owns the test strategy, validates acceptance criteria, and manages QA timelines and quality gates
+- Technical Lead / Architect: responsible for design reviews and technical risk mitigation during execution
+- DevOps / Platform Engineer: supports release readiness, CI/CD pipeline maintenance, and post-deploy verifications
+
 ## Reporting & Metrics
 - Track velocity and burndown
 - Monitor success metrics identified in the Project One-pager

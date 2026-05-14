@@ -23,6 +23,10 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - [ ] Run post-deploy verifications
 - [ ] Announce release to stakeholders and support
 
+Additional release responsibilities and gates:
+- Security / Compliance Officer: perform security review and approve release if the change touches sensitive components or data; ensure compliance checks are completed
+- DevOps / Platform Engineer: owns the CI/CD pipeline, executes production deployment steps or provides the runbook for self-service deployments, and ensures rollback procedures are operational
+
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
   - Trigger incident response and notify on-call
